@@ -2,7 +2,7 @@ SET TERMOUT OFF
 
 COLUMN database_name NEW_VALUE database_name
 
-
+SET INSTANCE LOCAL
 
 SELECT SYS_CONTEXT('USERENV','DB_NAME') database_name
 
